@@ -26,7 +26,27 @@ app.get('/books', (req,res)=>{
 app.get('/amongus', (req,res)=>{
   res.render('amongus')
 })
-
+app.get('/book1/page1', (req,res)=>{
+  res.render('book1/page1')
+})
+app.get('/book1/page2', (req,res)=>{
+  res.render('book1/page2')
+})
+app.get('/book1/page3', (req,res)=>{
+  res.render('book1/page3')
+})
+app.get('/book1/page4', (req,res)=>{
+  res.render('book1/page4')
+})
+app.get('/book1/page5', (req,res)=>{
+  res.render('book1/page5')
+})
+app.get('/book1/page6', (req,res)=>{
+  res.render('book1/page6')
+})
+app.get('/book1/page7', (req,res)=>{
+  res.render('book1/page7')
+})
 
 // const server = http.createServer((req, res) => {
 //   console.log(req.url)
