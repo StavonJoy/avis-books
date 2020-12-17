@@ -9,15 +9,19 @@ app.listen(3000,() => {
 })
 
 app.get('/', (req,res)=>{
-  res.sendFile(path.resolve(__dirname,'index.html'))
+  res.sendFile(path.resolve(__dirname,'pages/index.html'))
 })
 
 app.get('/about', (req,res)=>{
-  res.sendFile(path.resolve(__dirname,'about.html'))
+  res.sendFile(path.resolve(__dirname,'pages/about.html'))
 })
 
 app.get('/books', (req,res)=>{
-  res.sendFile(path.resolve(__dirname,'books.html'))
+  res.sendFile(path.resolve(__dirname,'pages/books.html'))
+})
+
+app.get('/amongus', (req,res)=>{
+  res.sendFile(path.resolve(__dirname,'pages/amongus.html'))
 })
 
 // const server = http.createServer((req, res) => {

@@ -1,3 +1,71 @@
 body {
   background-color: aquamarine;
 }
+nav {
+  background-color: rgb(126, 79, 79);
+  box-shadow: rgba(0, 0, 0, 0.536);
+  height: 25px;
+}
+nav > ul {
+  list-style: none;
+  position: absolute;
+  right: 0;
+}
+li, a {
+  display: inline;
+  color: aquamarine;
+  padding: 5px;
+  text-decoration: none;
+}
+li, a:hover {
+  color: white;
+}
+#amongus {
+  width: 300px;
+}
+.next {
+  color: black;
+  position: absolute;
+  right: 3%;
+  top: 60%;
+  display: inline;
+}
+.back {
+  color: black;
+  position: absolute;
+  left: 3%;
+  top: 60%;
+  display: inline;
+}
+#book {
+  margin: 15px;
+  height: 500px;
+  width: 100%vw;
+  background-color: bisque;
+  border: solid black 2px;
+  text-align: center;
+}
+.page {
+  /* display: inline; */
+  /* position: absolute; */
+  right: 50%; 
+  top: 60%;
+  text-align: center;
+}
+.pic {
+  padding: 40px;
+}
+.title {
+  font-size: 3em;
+  right: 50%; 
+  top: 60%;
+  padding: 40px;
+  text-align: center;
+}
+#title {
+  display: inline;
+  position: absolute;
+  left: 0;
+  color: aquamarine;
+  margin-left: 5px;
+}
