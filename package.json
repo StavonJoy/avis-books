@@ -1,0 +1,22 @@
+{
+  "name": "avis-books",
+  "version": "1.0.0",
+  "description": "This is a project I'm starting for my daughter, Avi. She loves to write books, and I wanted to bring that to life in a website she can share her stories on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StavonJoy/avis-books.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StavonJoy/avis-books/issues"
+  },
+  "homepage": "https://github.com/StavonJoy/avis-books#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
